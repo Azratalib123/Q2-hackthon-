@@ -46,7 +46,7 @@ export function ProductCard({ name, category, price, originalPrice, image, badge
         <h3 className="font-medium">{name}</h3>
         <p className="text-sm text-muted-foreground">{category}</p>
       </div>
-      <p className="p-4 pt-0 flex justify-between">
+      <p className="p-4 pt-0 flex justify-between"></p>
         <div className="flex gap-2">
           <span className="font-medium">Rp {price.toLocaleString()}</span>
           {originalPrice && (
@@ -55,7 +55,6 @@ export function ProductCard({ name, category, price, originalPrice, image, badge
             </span>
           )}
         </div>
-      </p>
     </div>
   )
 }
