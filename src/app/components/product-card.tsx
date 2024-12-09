@@ -55,6 +55,7 @@ export function ProductCard({ name, category, price, originalPrice, image, badge
             </span>
           )}
         </div>
+      </div>
     </div>
   )
 }
